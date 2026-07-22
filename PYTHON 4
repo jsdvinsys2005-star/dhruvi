@@ -1,1 +1,14 @@
-PYTHON 4
+myvar = "YAMI"
+my_var = "MIRA"
+_my_var = "RITA"
+myVar = "SIVA"
+MYVAR = "RIMA"
+myvar2 = "DIYA"
+
+
+print(myvar)
+print(my_var)
+print(_my_var)
+print(myVar)
+print(MYVAR)
+print(myvar2)
