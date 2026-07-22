@@ -1,0 +1,7 @@
+x = 1
+y = 34556778996788699
+z = -4456567
+
+print(type(A))
+print(type(B))
+print(type(C))
