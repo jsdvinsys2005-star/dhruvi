@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Online Shop</title>
+<style>
+body{font-family:Arial;margin:0;background:#f2f2f2}
+header{background:#222;color:white;padding:15px;text-align:center}
+nav{background:#444;padding:10px;text-align:center}
+nav a{color:white;margin:15px;text-decoration:none}
+.box{display:flex;justify-content:center;gap:20px;padding:30px}
+.product{background:white;padding:20px;width:180px;text-align:center;
+border-radius:10px;box-shadow:0 0 5px #aaa}
+button{background:green;color:white;border:0;padding:10px;
+border-radius:5px}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>My Online Shop</h1>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">Login</a>
+<a href="#">Cart</a>
+</nav>
+
+<div class="box">
+
+<div class="product">
+<h2>Mobile</h2>
+<p>₹15,000</p>
+<button onclick="alert('Mobile Added to Cart')">Buy Now</button>
+</div>
+
+<div class="product">
+<h2>Laptop</h2>
+<p>₹50,000</p>
+<button onclick="alert('Laptop Added to Cart')">Buy Now</button>
+</div>
+
+<div class="product">
+<h2>Headphones</h2>
+<p>₹2,000</p>
+<button onclick="alert('Headphones Added to Cart')">Buy Now</button>
+</div>
+
+</div>
+
+</body>
+</html>
